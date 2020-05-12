@@ -1,0 +1,8 @@
+__pycache__
+venv
+.idea
+constants.py
+s.py
+test.py
+wit_ai.py
+.gitignore

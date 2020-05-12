@@ -16,6 +16,7 @@ def photo_2_text(path_to_image):
 
 # https://translate.yandex.com/ocr
 """
-img = cv2.imread('ss.jpg')
-text = pytesseract.image_to_string(img)
-print(text)"""
+img = cv2.imread('/home/darkor/Pictures/Screenshot from 2020-02-02 14-05-17.png')
+text = pytesseract.image_to_string(image=img, lang='ua')
+print(text)
+"""
